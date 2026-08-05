@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: jai-enterprise
+
+data:
+  APP_ENV: "development"
+  DB_HOST: "mysql-service"
+  DB_PORT: "3306"
+  DB_NAME: "enterprise_db"

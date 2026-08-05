@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: jai-enterprise
+  labels:
+    app: jai-enterprise
+    environment: dev
